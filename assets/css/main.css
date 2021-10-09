@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Vidaloka&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: #92DEDD;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 85%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-family: 'Vidaloka', serif;
+    font-size: 2em;
+    margin: 2rem 1rem 1rem 1rem;
+}
+span{
+    font-size: 500%;
+}
+button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+}
+.btn-container{
+    margin: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 10%;
+    height: 2rem;
+    margin: 0 2%;
+    border-radius: 2rem;
+    background-color: #637081;
+    color: #F0ECE6;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
