@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 main{
-    width: 85%;
+    width: 70%;
     background-color: white;
 
     display: flex;
@@ -48,7 +48,7 @@ button{
     justify-content: center;
 }
 .btn{
-    width: 10%;
+    width: 15%;
     height: 2rem;
     margin: 0 2%;
     border-radius: 2rem;
@@ -57,4 +57,7 @@ button{
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
+}
+.btn:hover{
+    filter: brightness(0.95);
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,28 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Cronômetro</title>
 </head>
+
 <body>
     <main>
         <section>
             <h1>Cronômetro</h1>
         </section>
         <section>
-            <span>00:00</span>
+            <div>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="seg">00</span></div>
         </section>
         <section class="btn-container">
-            <button id="btn-iniciar" class="btn">Iniciar</button>
+            <button id="btn-iniciar" class="btn"
+                onclick="iniciar(0,document.querySelector('#seg'),0,document.querySelector('#min'))">
+                    Iniciar
+                </button>
             <button id="btn-iniciar" class="btn">Pausar</button>
-            <button id="btn-iniciar" class="btn">Zerar</button>
+            <button id="btn-iniciar" class="btn" onclick="zerar(timer,0,document.querySelector('#seg'),0,document.querySelector('#min'))">Zerar</button>
         </section>
     </main>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
