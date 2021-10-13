@@ -21,12 +21,13 @@
                 <span id="seg">00</span></div>
         </section>
         <section class="btn-container">
+            
             <button id="btn-iniciar" class="btn"
-                onclick="play()">
+                onclick="play(elementSeconds,elementMinutes)">
                     Iniciar
                 </button>
-            <button id="btn-pausar" class="btn" onclick="pausar()">Pausar</button>
-            <button id="btn-zerar" class="btn" onclick="zerar()">Zerar</button>
+            <button id="btn-pausar" class="btn" onclick="pause()">Pausar</button>
+            <button id="btn-zerar" class="btn" onclick="reset(elementSeconds,elementMinutes)">Zerar</button>
         </section>
     </main>
     <script src="./assets/js/main.js"></script>
